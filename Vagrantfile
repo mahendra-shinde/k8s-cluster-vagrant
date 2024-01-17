@@ -7,15 +7,15 @@ servers = [
         :type => "master",
         :box => "bento/ubuntu-22.04",
         :eth1 => "192.168.56.10",
-        :mem => "1024",
-        :cpu => "1"
+        :mem => "2048",
+        :cpu => "2"
     },
     {
         :name => "k8s-node-1",
         :type => "node",
         :box => "bento/ubuntu-22.04",
         :eth1 => "192.168.56.11",
-        :mem => "2048",
+        :mem => "1024",
         :cpu => "1"
     },
     {
@@ -23,7 +23,7 @@ servers = [
         :type => "node",
         :box => "bento/ubuntu-22.04",
         :eth1 => "192.168.56.12",
-        :mem => "2048",
+        :mem => "1024",
         :cpu => "1"
     }
 ]
